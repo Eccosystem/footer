@@ -2,31 +2,65 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Transparent Fading Navigation Bar</title>
+  <title>CSS Waves | Mobile &amp; Full width</title>
   <link rel="stylesheet" href="./style.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<nav>
-  <ul>
-    <li>
-      <a href="https://senad.readyshop.io/">Ecosystem package</a>
-    </li>
-    <li>
-      <a href="https://www.senad.io/ecoproject">Ecosystem kit-How To</a>
-    </li>
-    <li>
-      <a href="https://www.senad.io/about/contact">Contact us</a>
-    </li>
-    <li>
-      <a href="https://www.senad.io/login">Register Today</a>
-    </li>
-  </ul>
-</nav>
-<!-- partial -->
-  <script  src="./script.js"></script>
+<!--Hey! This is the original version
+of Simple CSS Waves-->
 
+<div class="header">
+  
+<div class="topnav">
+
+  <a href="https://www.senad.io/ecosystempackage">Ecosystem Kit</a>
+  <a href="https://www.senad.io/ecoproject">Ecosystem Kit-How to</a>
+  <a href="https://www.senad.io/about/contact">Contact us</a>
+  <a href="https://www.senad.io/login">Get listed today</a>
+  
+</div>
+  
+ 
+<!--Content before waves-->
+<div class="inner-header flex">
+<!--Just the logo.. Don't mind this-->
+
+
+
+
+
+</div>
+
+
+
+<!--Waves Container-->
+<div>
+<svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+<defs>
+<path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+</defs>
+<g class="parallax">
+<use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+<use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.5)" />
+<use xlink:href="#gentle-wave" x="48" y="9" fill="rgba(255,255,255,0.13)" />
+<use xlink:href="#gentle-wave" x="48" y="13" fill="rgba(255,255,255,02)" />
+</g>
+</svg>
+
+</div>
+<!--Waves end-->
+
+</div>
+<!--Header ends-->
+
+<!--Content starts-->
+
+<!--Content ends-->
+<!-- partial -->
+ 
+  
 </body>
 </html>
